@@ -17,8 +17,7 @@ final color offblack = color(3, 11, 30);
 
 void setup() {
   fullScreen();
-  frameRate(60);
-  //aaaa
+  frameRate(20); //chess doesn't need more
 
   w = width/SIZE;
   OFFSET = w*SIZE/2;
