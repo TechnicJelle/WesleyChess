@@ -1,5 +1,5 @@
 # wesley-chess
-A very simple chess Android app without any rules or restricions.
+A very simple chess Android app without any rules or restrictions.
 
 Useful for when you want to try different rulesets.
 
