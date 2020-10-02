@@ -3,7 +3,7 @@ ArrayList<Piece> pieces;
 
 final int SIZE = 8; //amount of squares (√)
 float OFFSET;
-boolean USE_ICONS = true;
+boolean USE_ICONS = false;
 
 boolean btnSwitch = false;
 boolean btnReset  = false;
