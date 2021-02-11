@@ -17,6 +17,7 @@ final color offblack = color(3, 11, 30);
 
 void setup() {
   fullScreen();
+  orientation(PORTRAIT);
   frameRate(20); //chess doesn't need more
 
   w = width/SIZE;
@@ -68,7 +69,7 @@ void draw() {
   background(100); //"table" colour
 
   buttons();
-  
+
   translate(0, OFFSET);
   board();
   for (Piece p : pieces) {
@@ -88,7 +89,7 @@ void buttons() {
   rect(0, 0, w, w, w/10);
   fill(255, btnReset ? 50 : 100);
   rect(w, 0, w, w, w/10);
-  
+
   //text
   fill(255, 100);
   textSize(w*.9);
@@ -136,7 +137,7 @@ void mouseReleased() {
   if (btnSwitch) {
     USE_ICONS = !USE_ICONS;
   }
-  
+
   if (btnReset) {
     pieces.clear();
     setPieces();
