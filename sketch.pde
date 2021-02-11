@@ -142,36 +142,3 @@ void mouseReleased() {
     setPieces();
   }
 }
-
-float txtSize = 64;
-void fpsCount() {
-  pushStyle();
-  String fps = str(round(frameRate));
-  noStroke();
-  fill(0);
-  rect(10, 10, textWidth(fps), txtSize*0.8);
-  textSize(txtSize);
-  textAlign(LEFT, TOP);
-  fill(255, 255, 0);
-  text(fps, 10, 10);
-  popStyle();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
